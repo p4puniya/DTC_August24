@@ -12,6 +12,12 @@ public class ReverseAnArray {
         
         System.out.println();
     }
+
+    static void display(int[] arr, int i, int j){
+        for(int x=i;x<arr.length && x<=j;x++)
+            System.out.print(arr[x]+" ");
+        System.out.println();
+    }
     //Sum of Complete Array
     static int findSum(int[] arr){
         int sum=0;
@@ -59,8 +65,8 @@ public class ReverseAnArray {
         // int i=1, j=4;
         // swapElements(nums,i,j);
 
-        reverseUsingSwap(nums);
-        display(nums);
+        // reverseUsingSwap(nums);
+        display(nums,2,5);
         // System.out.println(sum);
     }
 }
