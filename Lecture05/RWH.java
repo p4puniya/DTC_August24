@@ -9,11 +9,6 @@ public class RWH {
             for(int i=0;i<height.length;i++){
                 int currentLevel=0;
                 int currentWater=0;
-                // int leftGreatest=0, rightGreatest=0;
-                // for(int j=i-1;j>=0;j--) 
-                // leftGreatest= Math.max(leftGreatest, height[j]);
-                // for(int j=i+1;j<height.length;j++)
-                //     rightGreatest= Math.max(rightGreatest, height[j]);
                 currentLevel= Math.min(nger[i], ngel[i]);
                 currentWater= currentLevel- height[i];
                 if(currentWater>0) totalWater+=currentWater;

@@ -35,6 +35,7 @@ public class RotateArray {
             temp[i+k]= arr[i];
         for(int i=0;i<k;i++)
             temp[i]= arr[n-k+i];
+        //deep copy
         for(int i=0;i<n;i++)
             arr[i]= temp[i];
     }

@@ -14,7 +14,6 @@ public class SelectionSort {
             arr[idx]=temp;
         }
     }
-    
     // Find the index of the minimum element from an array: arr
     static int minimumValue(int[] arr, int a){
         int mini= a;
