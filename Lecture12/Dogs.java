@@ -1,7 +1,7 @@
 package Lecture12;
-
 public class Dogs extends Animals{
     String name;
+    int legs;
     String voice;
     String color;
     //Default Constructor
@@ -11,7 +11,6 @@ public class Dogs extends Animals{
         String name,
         String voice,
         String color,
-        int leg,
         boolean tail,
         int food
     ){
